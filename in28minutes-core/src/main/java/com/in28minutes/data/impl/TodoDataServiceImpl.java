@@ -17,7 +17,8 @@ public class TodoDataServiceImpl implements TodoDataService {
 	private EntityManager entityManager;
 
 	public TodoItem getTodoById(final long id) {
-		return entityManager.find(TodoItem.class, id);
+	System.out.println("Introducing a change");	
+	return entityManager.find(TodoItem.class, id);
 	}
 
 	public TodoItemList getTodoListByUser(final long userId) {
