@@ -4,7 +4,7 @@
 
 <div class="well sidebar-nav">
     <ul class="nav nav-list">
-        <li><a href="/todos"><i class="icon-home"></i> Home</a></li>
+        <li><a href="/todos" id="todos"><i class="icon-home"></i> Home</a></li>
         <li><a href="http://www.in28minutes.com">Website</a></li>
         <li><a href="https://www.facebook.com/pages/In28Minutes/936511196393347">Facebook Page</a></li>
         <li><a href="https://www.facebook.com/groups/102049583468817/">Facebook Group</a></li>

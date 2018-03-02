@@ -3,6 +3,6 @@
 
 <c:if test="${requestScope.error != null}">
     <div class="alert alert-error">
-        <strong>${requestScope.error}</strong>
+        <strong id="strong_error_id">${requestScope.error}</strong>
     </div>
 </c:if>
