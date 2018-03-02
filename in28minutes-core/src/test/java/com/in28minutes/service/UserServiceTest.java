@@ -25,7 +25,7 @@ public class UserServiceTest {
 
 	@Test
 	public void testLogin_withBrokenUser() {
-		assertTrue(userService.isValidUser("non-existing-user@dummy.com", "dummy"));
+		assertFalse(userService.isValidUser("non-existing-user@dummy.com", "dummy"));
 	}
 
 }

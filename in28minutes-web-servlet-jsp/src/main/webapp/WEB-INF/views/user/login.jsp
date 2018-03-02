@@ -33,7 +33,7 @@
                     </div>
 
                     <div class="form-actions col-sm-offset-2 col-sm-10">
-                        <button type="submit" class="btn btn-primary"><i class="icon-lock icon-white"></i> Sign in</button>
+                        <button type="submit" id="submit_button" class="btn btn-primary"><i class="icon-lock icon-white"></i> Sign in</button>
                     </div>
 
                     <div align="center">
